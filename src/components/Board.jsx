@@ -123,8 +123,7 @@ class Board extends Component {
     else if (this.state.isnewGame) {
       return (
         <div>
-          <div className="container"> Welcome </div>
-          <img className="picture" src={playgame} alt="tictoctoe" />
+          <img className="picture" src={playgame} alt="tictactoe" />
           <div>
             <StartBtn className="container" onClick={() => { this.setState({ isnewGame: false }); }} >
               Play Game
